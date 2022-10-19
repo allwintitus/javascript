@@ -1,0 +1,8 @@
+window.prompt("this is used to create the captilization of the first char in the name and remaining char in the lower case");
+var name=prompt("enter your name");//asking the user to get the names
+var firstchar=name.slice(0,1);//excluding the first charecter 
+var uppercase=firstchar.toUpperCase();//making the first  string charectre to the upper case
+var rest_name=name.slice(1,name.lenght);//slicing the length  
+rest_name=rest_name.toLowerCase();//making every single charecter in the lower case excluding the first letter
+var capital=uppercase+rest_name;//concat the names
+alert("hello" + capital);//concat the names
